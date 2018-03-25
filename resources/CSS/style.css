@@ -2,16 +2,47 @@ body {
   font-size: 18px;
   font-family: Helvetica;
 }
-header {
+.logo {
   background-color: black;
   color: white;
+
 }
 .container {
+  width: 960px;
+  margin: 0px auto;
+}
+.logo  .container {
   display: flex;
   align-items: center;
   padding: 12px 0px 12px 0.5em;
 }
-header .logo {
+.logo img {
   height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+.main-section {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  background-position: center;
+}
 
+.heading {
+  background-color: black;
+  color: white;
+  width: 20em;
+  position: relative;
+  padding: 2rem 3rem;
+  top: 9em;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
 }
